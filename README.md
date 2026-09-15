@@ -30,8 +30,8 @@ Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (1/10) — 2 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 1
-- **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (2/10) — 3 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 0 | 0 | 1 | 1 |
-| last60d | 2026-07-16 | 0 | 0 | 2 | 0 | 1 | 1 |
-| 90d | 2026-06-16 | 0 | 0 | 2 | 0 | 1 | 3 |
-| last180d | 2026-03-18 | 2 | 1 | 2 | 1 | 2 | 8 |
-| 360d | 2025-09-19 | 4 | 5 | 2 | 13 | 6 | 27 |
-| last720d | 2024-09-24 | 14 | 16 | 3 | 25 | 24 | 133 |
+| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 1 | 1 |
+| last60d | 2026-07-17 | 0 | 0 | 2 | 0 | 1 | 1 |
+| 90d | 2026-06-17 | 0 | 0 | 2 | 0 | 1 | 3 |
+| last180d | 2026-03-19 | 2 | 1 | 2 | 1 | 2 | 8 |
+| 360d | 2025-09-20 | 4 | 5 | 2 | 13 | 6 | 27 |
+| last720d | 2024-09-25 | 14 | 16 | 3 | 25 | 24 | 133 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for toot lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T06:04:53Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:58:00Z._
