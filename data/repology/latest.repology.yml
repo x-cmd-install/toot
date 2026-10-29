@@ -1,4 +1,4 @@
-- repo: manjaro_unstable
+- repo: arch
   subrepo: extra
   srcname: toot
   binname: toot
@@ -9,96 +9,8 @@
   summary: A Mastodon CLI client
   licenses:
     - GPL-3.0-only
-- repo: parrot
-  subrepo: parrot/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.48.1
-  origversion: 0.48.1-0
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - team+python@tracker.debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.48.1
-  origversion: 0.48.1-0
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - team+python@tracker.debian.org
-  categories:
-    - misc
-- repo: nix_stable_24_05
-  srcname: toot
-  visiblename: toot
-  version: 0.47.0
-  origversion: null
-  status: outdated
-  summary: Mastodon CLI interface
-  maintainers:
-    - mail@beyermatthias.de
-    - me@aleksana.moe
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_24_11
-  srcname: toot
-  visiblename: toot
-  version: 0.47.1
-  origversion: null
-  status: outdated
-  summary: Mastodon CLI interface
-  maintainers:
-    - mail@beyermatthias.de
-    - me@aleksana.moe
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_25_05
-  srcname: toot
-  visiblename: toot
-  version: 0.47.1
-  origversion: null
-  status: outdated
-  summary: Mastodon CLI interface
-  maintainers:
-    - mail@beyermatthias.de
-    - me@aleksana.moe
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_25_11
-  srcname: toot
-  visiblename: toot
-  version: 0.51.0
-  origversion: null
-  status: outdated
-  summary: Mastodon CLI interface
-  maintainers:
-    - mail@beyermatthias.de
-    - me@aleksana.moe
-  licenses:
-    - GPL-3.0-only
-- repo: pkgsrc_2026_2
-  srcname: chat/toot
-  binname: toot
-  visiblename: chat/toot
-  version: 0.52.1
-  origversion: null
-  status: newest
-  summary: Command line client for the Mastodon social network API
-  maintainers:
-    - vins@netbsd.org
-  categories:
-    - chat
-- repo: pardus_21
-  subrepo: main
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: toot
   binnames:
     - toot
@@ -111,20 +23,14 @@
     - python-apps-team@lists.alioth.debian.org
   categories:
     - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
+- repo: haikuports_master
+  srcname: net-im/toot
+  visiblename: net-im/toot
+  version: 0.42.0
+  origversion: null
+  status: outdated
   categories:
-    - misc
+    - net-im
 - repo: alpine_3_17
   subrepo: community
   srcname: toot
@@ -346,31 +252,6 @@
     - galen@galenabell.com
   licenses:
     - GPL-3.0-only
-- repo: arch
-  subrepo: extra
-  srcname: toot
-  binname: toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  summary: A Mastodon CLI client
-  licenses:
-    - GPL-3.0-only
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - python-apps-team@lists.alioth.debian.org
-  categories:
-    - misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: toot
@@ -397,6 +278,20 @@
   maintainers:
     - jcc@debian.org
     - team+python@tracker.debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
   categories:
     - misc
 - repo: debian_unstable
@@ -607,17 +502,6 @@
     - GPL-3.0-only
   categories:
     - Unspecified
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: toot
-  binname: toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  summary: A Mastodon CLI client
-  licenses:
-    - GPL-3.0-only
 - repo: fedora_rawhide
   subrepo: development
   srcname: toot
@@ -665,14 +549,6 @@
   origversion: null
   status: outdated
   summary: Mastodon CLI client
-- repo: haikuports_master
-  srcname: net-im/toot
-  visiblename: net-im/toot
-  version: 0.42.0
-  origversion: null
-  status: outdated
-  categories:
-    - net-im
 - repo: homebrew
   srcname: toot
   visiblename: toot
@@ -778,6 +654,76 @@
   summary: A Mastodon CLI client
   licenses:
     - GPL-3.0-only
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: toot
+  binname: toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  summary: A Mastodon CLI client
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: toot
+  binname: toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  summary: A Mastodon CLI client
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_24_05
+  srcname: toot
+  visiblename: toot
+  version: 0.47.0
+  origversion: null
+  status: outdated
+  summary: Mastodon CLI interface
+  maintainers:
+    - mail@beyermatthias.de
+    - me@aleksana.moe
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_24_11
+  srcname: toot
+  visiblename: toot
+  version: 0.47.1
+  origversion: null
+  status: outdated
+  summary: Mastodon CLI interface
+  maintainers:
+    - mail@beyermatthias.de
+    - me@aleksana.moe
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_05
+  srcname: toot
+  visiblename: toot
+  version: 0.47.1
+  origversion: null
+  status: outdated
+  summary: Mastodon CLI interface
+  maintainers:
+    - mail@beyermatthias.de
+    - me@aleksana.moe
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_11
+  srcname: toot
+  visiblename: toot
+  version: 0.51.0
+  origversion: null
+  status: outdated
+  summary: Mastodon CLI interface
+  maintainers:
+    - mail@beyermatthias.de
+    - me@aleksana.moe
+  licenses:
+    - GPL-3.0-only
 - repo: nix_stable_26_05
   srcname: toot
   visiblename: toot
@@ -836,6 +782,60 @@
   summary: CLI and TUI clients for Mastodon federated services
   licenses:
     - GPL3
+- repo: pardus_21
+  subrepo: main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - python-apps-team@lists.alioth.debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.48.1
+  origversion: 0.48.1-0
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - team+python@tracker.debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.48.1
+  origversion: 0.48.1-0
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - team+python@tracker.debian.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_2
+  srcname: chat/toot
+  binname: toot
+  visiblename: chat/toot
+  version: 0.52.1
+  origversion: null
+  status: newest
+  summary: Command line client for the Mastodon social network API
+  maintainers:
+    - vins@netbsd.org
+  categories:
+    - chat
 - repo: pkgsrc_2026_3
   srcname: chat/toot
   binname: toot
