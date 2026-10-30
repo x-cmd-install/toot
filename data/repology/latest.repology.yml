@@ -1,36 +1,3 @@
-- repo: arch
-  subrepo: extra
-  srcname: toot
-  binname: toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  summary: A Mastodon CLI client
-  licenses:
-    - GPL-3.0-only
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.27.0
-  origversion: 0.27.0-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - python-apps-team@lists.alioth.debian.org
-  categories:
-    - misc
-- repo: haikuports_master
-  srcname: net-im/toot
-  visiblename: net-im/toot
-  version: 0.42.0
-  origversion: null
-  status: outdated
-  categories:
-    - net-im
 - repo: alpine_3_17
   subrepo: community
   srcname: toot
@@ -252,6 +219,31 @@
     - galen@galenabell.com
   licenses:
     - GPL-3.0-only
+- repo: arch
+  subrepo: extra
+  srcname: toot
+  binname: toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  summary: A Mastodon CLI client
+  licenses:
+    - GPL-3.0-only
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.27.0
+  origversion: 0.27.0-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - python-apps-team@lists.alioth.debian.org
+  categories:
+    - misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: toot
@@ -391,20 +383,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.48.1
-  origversion: 0.48.1-1.fc40
-  status: outdated
-  summary: A CLI and TUI tool for interacting with Mastodon
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: toot
   binnames:
@@ -416,6 +394,20 @@
   summary: A CLI and TUI tool for interacting with Mastodon
   licenses:
     - GPLv3
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.48.1
+  origversion: 0.48.1-1.fc40
+  status: outdated
+  summary: A CLI and TUI tool for interacting with Mastodon
+  licenses:
+    - GPL-3.0-only
   categories:
     - Unspecified
 - repo: fedora_41
@@ -549,6 +541,14 @@
   origversion: null
   status: outdated
   summary: Mastodon CLI client
+- repo: haikuports_master
+  srcname: net-im/toot
+  visiblename: net-im/toot
+  version: 0.42.0
+  origversion: null
+  status: outdated
+  categories:
+    - net-im
 - repo: homebrew
   srcname: toot
   visiblename: toot
@@ -761,17 +761,6 @@
   categories:
     - net
 - repo: parabola
-  subrepo: extra
-  srcname: toot
-  binname: toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  summary: A Mastodon CLI client
-  licenses:
-    - GPL-3.0-only
-- repo: parabola
   subrepo: pcr
   srcname: toot
   binname: toot
@@ -782,6 +771,17 @@
   summary: CLI and TUI clients for Mastodon federated services
   licenses:
     - GPL3
+- repo: parabola
+  subrepo: extra
+  srcname: toot
+  binname: toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  summary: A Mastodon CLI client
+  licenses:
+    - GPL-3.0-only
 - repo: pardus_21
   subrepo: main
   srcname: toot
@@ -797,7 +797,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: toot
   binnames:
     - toot
@@ -811,7 +811,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: toot
   binnames:
     - toot
