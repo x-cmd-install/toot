@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,331 · **Forks**: 126 · **Open issues**: 341 · **Contributors**: 54
+- **Stars**: 1,331 · **Forks**: 127 · **Open issues**: 341 · **Contributors**: 54
 
 ## Totals (cumulative)
 
-- **Releases**: 64 · **Merged PRs**: 123 · **Open PRs**: 7 · **Closed issues**: 218 · **Open issues**: 123 · **Commits**: 1143
+- **Releases**: 64 · **Merged PRs**: 123 · **Open PRs**: 8 · **Closed issues**: 218 · **Open issues**: 123 · **Commits**: 1143
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-11 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-12 | 0 | 0 | 2 | 0 | 1 | 1 |
-| last180d | 2026-05-14 | 0 | 0 | 4 | 0 | 2 | 3 |
-| 360d | 2025-11-15 | 3 | 5 | 4 | 12 | 2 | 20 |
-| last720d | 2024-11-20 | 9 | 15 | 5 | 23 | 23 | 107 |
+| 30d | 2026-10-12 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-12 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-13 | 0 | 0 | 3 | 0 | 1 | 1 |
+| last180d | 2026-05-15 | 0 | 0 | 5 | 0 | 2 | 3 |
+| 360d | 2025-11-16 | 3 | 5 | 5 | 12 | 2 | 20 |
+| last720d | 2024-11-21 | 9 | 15 | 6 | 23 | 23 | 107 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for toot lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:17:54Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:08:45Z._
