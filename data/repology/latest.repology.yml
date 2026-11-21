@@ -1,3 +1,54 @@
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.34.1
+  origversion: 0.34.1-1
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - team+python@tracker.debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.48.1
+  origversion: 0.48.1-0
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+    - team+python@tracker.debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: network/toot
+  visiblename: network/toot
+  version: 0.41.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - sultmhoor+sb@gmail.com
+  categories:
+    - network
+- repo: t2
+  srcname: toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: null
+  status: newest
+  summary: Mastodon cli & tui
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - GPL3
+  categories:
+    - extra/base
 - repo: alpine_3_17
   subrepo: community
   srcname: toot
@@ -11,6 +62,20 @@
     - galen@galenabell.com
   licenses:
     - GPL-3.0-only
+- repo: raspbian_testing
+  subrepo: main
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.52.1
+  origversion: 0.52.1-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: alpine_3_18
   subrepo: community
   srcname: toot
@@ -244,20 +309,6 @@
     - python-apps-team@lists.alioth.debian.org
   categories:
     - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.34.1
-  origversion: 0.34.1-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - team+python@tracker.debian.org
-  categories:
-    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: toot
@@ -300,18 +351,6 @@
     - jcc@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.21.0
-  origversion: 0.21.0-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - python-apps-team@lists.alioth.debian.org
 - repo: deepin_25
   subrepo: community
   srcname: toot
@@ -383,20 +422,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.42.0
-  origversion: 0.42.0-2.fc40
-  status: legacy
-  summary: A CLI and TUI tool for interacting with Mastodon
-  licenses:
-    - GPLv3
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: toot
   binnames:
@@ -408,6 +433,20 @@
   summary: A CLI and TUI tool for interacting with Mastodon
   licenses:
     - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: toot
+  binnames:
+    - toot
+  visiblename: toot
+  version: 0.42.0
+  origversion: 0.42.0-2.fc40
+  status: legacy
+  summary: A CLI and TUI tool for interacting with Mastodon
+  licenses:
+    - GPLv3
   categories:
     - Unspecified
 - repo: fedora_41
@@ -938,57 +977,6 @@
     - team+python@tracker.debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.48.1
-  origversion: 0.48.1-0
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-    - team+python@tracker.debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: toot
-  binnames:
-    - toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: 0.52.1-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: slackbuilds
-  srcname: network/toot
-  visiblename: network/toot
-  version: 0.41.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - sultmhoor+sb@gmail.com
-  categories:
-    - network
-- repo: t2
-  srcname: toot
-  visiblename: toot
-  version: 0.52.1
-  origversion: null
-  status: newest
-  summary: Mastodon cli & tui
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - GPL3
-  categories:
-    - extra/base
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: toot
