@@ -7,7 +7,7 @@ about:
   latestVersion: "0.52.1"
   latestRelease: "0.52.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:00:04Z
+  collectedAt: 2026-11-28T08:57:57Z
 timeline:
   created: 2017-04-12
   lastCommit: 2026-09-12
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-04-04
   lastPrerelease: 
 popularity:
-  star: 1331
+  star: 1330
   watcher: 25
   fork: 126
   release: 64
@@ -29,7 +29,7 @@ language:
 totalBytes: 424480
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 1
@@ -37,7 +37,7 @@ recent:
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 2
@@ -45,7 +45,7 @@ recent:
     openIssue: 0
     commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 2
@@ -53,7 +53,7 @@ recent:
     openIssue: 0
     commit: 1
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 4
@@ -61,15 +61,15 @@ recent:
     openIssue: 2
     commit: 3
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 3
     mergedPR: 5
     openPR: 4
-    closedIssue: 11
+    closedIssue: 10
     openIssue: 2
     commit: 20
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 8
     mergedPR: 15
     openPR: 5
@@ -85,7 +85,7 @@ total:
   commit: 1143
 ---
 path: /home/runner/.x-repo/github.com/ihabunek/toot
-collectedAt: 2026-11-27T09:00:05Z
+collectedAt: 2026-11-28T08:57:58Z
 loc:
   Python:
     code: 10289
